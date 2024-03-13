@@ -1,0 +1,52 @@
+   <!-- =======================
+Header START -->
+<header class="navbar-dark navbar-transparent">
+    <!-- Logo Nav START -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo START -->
+            <a class="navbar-brand" routerLink="home">
+                <img class="navbar-brand-item" src="assets/images/path2.png" alt="logo">
+            </a>
+            <!-- Logo END -->
+
+            <!-- Responsive navbar toggler -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Main navbar START -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-nav-scroll mx-auto">
+                    <!-- Nav item 1 Home -->
+                    <li class="nav-item"><a class="nav-link" routerLink="home">HOME</a></li>
+
+                    <!-- Nav item 2 About -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="aboutMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TEST PREP</a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="aboutMenu">
+                            <li> <a class="dropdown-item" routerLink="test-prepartion-gre-coaching">GRE</a> </li>
+                            <li> <a class="dropdown-item" routerLink="test-prepartion-ielts-coaching">IELTS/PTE/TOEFL/ DUOLINGO</a> </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" routerLink="guidance">APPLICATION GUIDANCE</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" routerLink="about">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link"   routerLink="blog">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link"  routerLink="contact">CONTACT US</a></li>
+                    
+
+
+                </ul>
+            </div>
+            <!-- Main navbar END -->
+
+
+
+        </div>
+    </nav>
+    <!-- Logo Nav END -->
+</header>
+<!-- =======================
+Header END -->
